@@ -17,7 +17,7 @@ if (police.check(&smuggler))
 	cout << "Ulala, koleżko... Cos mi tu smierdzi! - rzekl policjant krecac nosem." << endl;
 	if (police.searchDrug(&smuggler))
 	{
-		
+
 	}
 	else
 	{
@@ -26,8 +26,7 @@ if (police.check(&smuggler))
 }
 else
 {
-	cout << "Widze, ze nie ma tu czego szukac. Prosze jechac ostroznie,
-	 bo mam pana na oku. - Policjant puszcza zachecajoco-gejowskie oczko." << endl;
+	cout << "Widze, ze nie ma tu czego szukac. Prosze jechac ostroznie" << endl;
 
 }
 
