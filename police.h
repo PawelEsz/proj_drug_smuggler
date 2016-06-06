@@ -1,5 +1,10 @@
 #pragma once
-#inlucde 'smuggler.h'
+#include <string>
+#include "smuggler.h"
+
+using namespace std;
+
+class Smuggler;
 
 class Police
 {
@@ -11,8 +16,14 @@ class Police
 
 public:
 	Police();
-	~Police();
+	//~Police();
+
+	int getResistanceBribe();
+	int getPosture();
+	int getCatching();
 
 	bool check(Smuggler*);
+	bool searchHideout(Smuggler*);
 	bool searchDrug(Smuggler*);
+	string description();
 };
